@@ -3,13 +3,13 @@ import chalk from 'chalk'
 import { fileURLToPath } from 'url'
 
 global.owner = [
-  ['59172945992', 'FG98', true],
-  ['5492622271736'], 
-  ['5492622271736'] 
+  ['6281251051640', 'ᴢᴀʟʟ sᴛᴏʀᴇ', true],
+  ['6285731706147', 'ᴢᴀʟʟ', true], 
+  [] 
 ] //Numeros de owner 
 
-global.mods = ['573125484672'] 
-global.prems = ['50489079501', '5219631769130', '573125484672']
+global.mods = ['6281251051640'] 
+global.prems = ['6281251051640', '6285731706147']
 global.APIs = { // API Prefix
   // name: 'https://website'
   xteam: 'https://api.xteam.xyz', 
@@ -25,16 +25,16 @@ global.APIKeys = { // APIKey Here
 }
 
 // Sticker WM
-global.packname = 'DyLux┃ᴮᴼᵀ' 
-global.author = '@fg98' 
-global.fgig = '▢ Sígueme en Instagram\nhttps://www.instagram.com/fg98_ff\n' 
-global.dygp = 'https://chat.whatsapp.com/IO9jmpI72ejHiN4unRZleU'
-global.fgsc = 'https://github.com/FG98F/dylux-fg' 
-global.fgyt = 'https://youtube.com/fg98f'
-global.fgpyp = 'https://paypal.me/fg98f'
+global.packname = 'ᴢᴀʟʟ ʙᴏᴛ' 
+global.author = '@ᴢᴀʟʟ sᴛᴏʀᴇ' 
+global.fgig = '▢ Instagram\nhttps://www.instagram.com/zallstorereal\n' 
+global.dygp = 'https://chat.whatsapp.com/Bmb4I127aL7JNS3YS0VnKb'
+global.fgsc = '' 
+global.fgyt = ''
+global.fgpyp = ''
 global.fglog = 'https://i.imgur.com/Owmb93c.png' 
 
-global.wait = '*⌛ _Cargando..._*\n*▰▰▰▱▱▱▱▱*'
+global.wait = '*⌛ _ᴡᴀɪᴛ..._*\n*▰▰▰▰▰▰▰▰▱▱ 80%*'
 global.rwait = '⌛'
 global.dmoji = '🤭'
 global.done = '✅'
