@@ -45,40 +45,22 @@ let infobt = `
 ≡ *INFO BOT*
   
 *ESTADO*
-▢ *${groupsIn.length}* Chats de grupo
-▢ *${groupsIn.length}* Gropos unidos
-▢ *${groupsIn.length - groupsIn.length}* Grupos abandonados
-▢ *${chats.length - groupsIn.length}* Chats privados
-▢ *${chats.length}* Total Chats
+▢ *${groupsIn.length}* ɢʀᴏᴜᴘ ᴄʜᴀᴛ
+▢ *${chats.length - groupsIn.length}* ᴘʀɪᴠᴀᴛᴇ ᴄʜᴀᴛ
+▢ *${chats.length}* ᴛᴏᴛᴀʟ ᴄʜᴀᴛ
 
-*≡ OWNER*
-  *FG98*
-▢ Instagram :
-  • https://instagram.com/fg98_ff
-▢ WhatsApp :
-  • (escribe solo si es necesario) 
-▢ GitHub :
-  • https://github.com/FG98F
-▢ Telegram : 
-  • t.me/fgsupp_bot (FG) 
-  • t.me/fg98ff (canal)
-  • t.me/fgawgp (grupo)
-▢ YouTube : 
-  • https://youtube.com/fg98f
-  
- *≡ HELPERS*
-  *CRISS*
-▢ Instagram : https://www.instagram.com/sayurizuniga3
-▢ WhatsApp : wa.me/
-  *ANDREA*
-▢ Instagram : https://
-▢ WhatsApp : wa.me/573125484672
+*≡ ᴏᴡɴᴇʀ*
+  *𝒛𝒂𝒍𝒍 𝒔𝒕𝒐𝒓𝒆*
+▢ ɪɴsᴛᴀɢʀᴀᴍ :
+  _• https://instagram.com/zallstorereal_
+▢ ɢʀᴜʙ :
+  _• https://chat.whatsapp.com/Bmb4I127aL7JNS3YS0VnKb_
 
- *≡ S E R V E R*
-*🛑 RAM:* ${format(totalmem() - freemem())} / ${format(totalmem())}
-*🔵 FreeRAM:* ${format(freemem())}
+ *≡ s ᴇ ʀ ᴠ ᴇ ʀ*
+*🛑 ʀᴀᴍ:* ${format(totalmem() - freemem())} / ${format(totalmem())}
+*🔵 ғʀᴇᴇʀᴀᴍ:* ${format(freemem())}
 
-*≡  NodeJS Uso de memoria*
+*≡  ᴍᴇɴɢɢᴜɴᴀᴋᴀɴ ᴍᴇᴍᴏʀɪ ɴᴏᴅᴇ.ᴊs*
 ${'```' + Object.keys(used).map((key, _, arr) => `${key.padEnd(Math.max(...arr.map(v => v.length)), ' ')}: ${format(used[key])}`).join('\n') + '```'}
 `
 m.reply(infobt)
