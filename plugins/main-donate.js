@@ -2,17 +2,10 @@
 let handler = async(m, { conn, usedPrefix, command }) => {
 
     let don = `
-≡ *DONACION*
-puedes donar si quieres ayudar a mantener el bot activo
-
-▢ *PayPal*
-• *Link :* https://paypal.me/fg98f
-
-▢ *Mercado Pago Arg*
-• *Alias :* fg98ff
-• *N° :* 2622271736
+≡ *ᴅᴏɴᴀsɪ*
+ᴀɴᴅᴀ ʙɪsᴀ ᴍᴇᴍʙᴇʀɪ ᴅᴏɴᴀsɪ sᴀʏᴀ ᴜɴᴛᴜᴋ ᴍᴇɴɢᴇᴍʙᴀɴɢᴋᴀɴ ʙᴏᴛ ɪɴɪ
 `
-let img = 'https://i.ibb.co/37FP2bk/donate.jpg'
+let img = 'https://telegra.ph/file/b6acac0ea218267f6b43d.jpg'
 conn.sendFile(m.chat, img, 'img.jpg', don, m)
 
 }
