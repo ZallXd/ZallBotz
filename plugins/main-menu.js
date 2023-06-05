@@ -5,46 +5,46 @@ import fetch from 'node-fetch'
 import { xpRange } from '../lib/levelling.js'
 //import { plugins } from '../lib/plugins.js'
 let tags = {
-  'main': 'ACERCA DE',
-  'game': 'JUEGOS',
-  'econ': 'NIVEL & ECONOMIA',
-  'rg': 'REGISTRO',
-  'sticker': 'STICKER',
-  'img': 'IMAGEN',
-  'maker': 'MAKER',
-  'prem': 'PREMIUM',
-  'group': 'GRUPO',
-  'nable': 'EN/DISABLE OPCIONES', 
-  'nime': 'ANIME',
-  'rnime': 'ANIME REACCION',
-  'dl': 'DESCARGAS',
-  'tools': 'TOOLS',
-  'fun': 'FUN',
-  'cmd': 'DATABASE',
-  'nsfw': 'NSFW +18', 
-  'ansfw': 'NSFW ANIME',
-  'owner': 'OWNER', 
-  'advanced': 'AVANZADO',
+  'main': 'ᴍᴀɪɴ',
+  'game': 'ɢᴀᴍᴇ',
+  'econ': 'ʟᴇᴠᴇʟ ᴅᴀɴ ᴇᴋᴏɴᴏᴍɪ',
+  'rg': 'ᴅᴀғᴛᴀʀ',
+  'sticker': 'sᴛɪᴋᴇʀ',
+  'img': 'ɢᴀᴍʙᴀʀ',
+  'maker': 'ᴍᴀᴋᴇʀ',
+  'prem': 'ᴘʀᴇᴍɪᴜᴍ',
+  'group': 'ɢʀᴜʙ',
+  'nable': 'ᴏɴ/ᴏғғ', 
+  'nime': 'ᴀɴɪᴍᴇ',
+  'rnime': 'ᴀɴɪᴍᴇ ʀᴇᴀᴄᴛɪᴏɴ',
+  'dl': 'ᴅᴏᴡɴʟᴏᴀᴅᴇʀ',
+  'tools': 'ᴛᴏᴏʟs',
+  'fun': 'ғᴜɴ',
+  'cmd': 'ᴅᴀᴛᴀʙᴀsᴇ',
+  'nsfw': 'ɴsғᴡ', 
+  'ansfw': 'ɴsғᴡ ᴀɴɪᴍᴇ',
+  'owner': 'ᴏᴡɴᴇʀ', 
+  'advanced': 'ᴀᴅᴠᴀɴᴄᴇ',
 }
 const defaultMenu = {
   before: `
 ◈ ━━━━━ *DyLux  ┃ ᴮᴼᵀ* ━━━━━ ◈
  
-👋🏻 _Hola_ *%name*
-🧿 Nivel : *%level* 
-👥 Usuarios : %totalreg
-📈 Tiempo activo : %muptime
+👋🏻 _Hallo_ *_%name_*
+*🧿 ʟᴇᴠᴇʟ :* *_%level_*
+*👥 ᴘᴇɴɢɢᴜɴᴀ :* _%totalreg_
+*📈 ᴜᴘᴛɪᴍᴇ :* %muptime
 ─────────────
-▢ Crea tu propio bot 
-• https://youtu.be/xFqjKN1Qt80
-▢ Descarga *FGWhatsApp*
-• https://fgmods.epizy.com
+▢ *ɢʀᴜʙ ᴡʜᴀᴛsᴀᴘᴘ*
+_• https://chat.whatsapp.com/Bmb4I127aL7JNS3YS0VnKb_
+▢ *ɪɴsᴛᴀɢʀᴀᴍ*
+• https://instagram.com/zallstorereal
 ─────────────
 %readmore
-Ⓟ = Premium
-ⓓ = Diamantes
+*Ⓟ = ᴘʀᴇᴍɪᴜᴍ*
+*Ⓕ = ғʀᴇᴇ*
 -----  -----  -----  -----  -----
-  ≡ *LISTA DE MENUS*
+  ≡ *ʟɪsᴛ ᴍᴇɴᴜ*
 `.trimStart(),
   header: '┌─⊷ *%category*',
   body: '▢ %cmd %isdiamond %isPremium',
